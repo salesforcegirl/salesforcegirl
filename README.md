@@ -1,10 +1,12 @@
 ### Hi, I'm Randi 👋
 
-Salesforce developer who builds her own tools. *See a need, fill a need.*
+Salesforce engineering leader, Agile & DevOps, building on Salesforce since 2007. I take the friction out of how teams work, and I build my own tools on the side. *See a need, fill a need.*
 
 **What I'm building**
 
-- **[SaasyLogs](https://saasylogs.com)**: Salesforce debug logs without the scroll-and-squint.
-- **[DwelLogs](https://dwellogs.com)**: a free app for your home's assets, maintenance schedules, parts, and service pros.
+- **[SaasyLogs](https://saasylogs.com)**: paste or upload a Salesforce debug log into a Google Sheet and see the path your save took.
+- **[DwelLogs](https://dwellogs.com)**: a free app for keeping a pulse on your home: jobs, check-ups, readings, and what it all costs.
+
+**Writing:** [salesforcegirl.hashnode.dev](https://salesforcegirl.hashnode.dev/)
 
 More at **[salesforcegirl.org](https://salesforcegirl.org)**

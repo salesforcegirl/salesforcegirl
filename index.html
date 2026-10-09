@@ -9,6 +9,13 @@
   <meta property="og:description" content="Salesforce engineering leader, Agile and DevOps coach, building on Salesforce since 2007. Creator of SaasyLogs and DwelLogs.">
   <meta property="og:url" content="https://salesforcegirl.org">
   <meta property="og:type" content="profile">
+  <!-- ?v=N busts LinkedIn's and Slack's cached preview; bump it whenever og-image.png changes. -->
+  <meta property="og:image" content="https://salesforcegirl.org/og-image.png?v=1">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Randi Warner, Salesforce engineering leader. See a need, fill a need.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://salesforcegirl.org/og-image.png?v=1">
   <meta name="theme-color" content="#16131a">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M8 40c0-8 8-12 18-12h6c-4-3-5-7-5-10 0-7 6-12 13-12s12 5 12 11c0 3-1 5-3 7 6 1 9 6 9 11 0 10-12 17-27 17S8 49 8 40z' fill='%23f28c28'/%3E%3Cpath d='M51 14.5l10-1.5-8.5 6.5z' fill='%23c2410c'/%3E%3Ccircle cx='43' cy='14' r='2.6' fill='%2316131a'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,6 +35,7 @@
         <li><a href="#why">Why</a></li>
         <li><a href="#work">Work</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#writing">Writing</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -115,13 +123,13 @@
         <h2>Leading teams, hands still on the code</h2>
         <p class="section-lede">
           I've been a developer, a Scrum Master, a build manager, and a people manager, often at the same time.
-          The common thread is making the platform, the process, and the team work better together.
+          The common thread is taking the friction out of how teams work, so they can get to the real work.
         </p>
 
         <div class="pillars">
           <div class="pillar">
             <h3>Salesforce architecture</h3>
-            <p>Clean data models, Apex, and automation that's tested, readable, and holds up at real data volumes, from proof of concept to production.</p>
+            <p>Clean data models, Apex, and automation that's tested, readable, and holds up at real data volumes. And cleaning up the inherited automation and tech debt that slows everything else down.</p>
           </div>
           <div class="pillar">
             <h3>Engineering leadership</h3>
@@ -152,6 +160,7 @@
           <li>Performance optimization</li>
           <li>Mentoring</li>
           <li>Google Apps Script</li>
+          <li>Postgres / Supabase</li>
         </ul>
       </div>
     </section>
@@ -167,31 +176,34 @@
           <article class="project">
             <div class="project-head">
               <h3>SaasyLogs</h3>
-              <span class="badge">Salesforce dev tool</span>
+              <span class="badge">Free · Google Sheets add-on</span>
             </div>
-            <p class="pitch">Salesforce debug logs without the scroll-and-squint.</p>
+            <!-- Pitch follows saasylogs.com's own hero, so the two say the same thing. -->
+            <p class="pitch">Paste or upload a Salesforce debug log into a Google Sheet and see the path your save took: every trigger, flow and class, in order. Then what went wrong, and where the time went.</p>
             <div class="pw">
               <div>
                 <h4>The problem</h4>
                 <p>Debug logs are huge, noisy, and hard to read. Finding the one line that matters eats time on every bug.</p>
               </div>
               <div>
-                <h4>Why I'm building it</h4>
-                <p>I live in these logs, so I'm building the tool I want to use on every bug.</p>
+                <h4>Why I built it</h4>
+                <p>I live in these logs, so I built the tool I want on every bug. It's in Google's review now, on its way to the Workspace Marketplace.</p>
               </div>
             </div>
             <div class="project-links">
               <a href="https://saasylogs.com">saasylogs.com →</a>
               <a href="https://github.com/SaasyLogs">GitHub →</a>
+              <a href="https://salesforcegirl.hashnode.dev/series/building-saasy-logs">The story →</a>
             </div>
           </article>
 
           <article class="project">
             <div class="project-head">
               <h3>DwelLogs</h3>
-              <span class="badge">In development · free app</span>
+              <span class="badge">Free · testing now</span>
             </div>
-            <p class="pitch">One place for your home's assets, maintenance schedules, parts, service providers, and projected costs.</p>
+            <!-- Pitch follows dwellogs.com, which says only what the app does today. -->
+            <p class="pitch">Keep a pulse on your home: the jobs, the check-ups, the readings, the people who help, and what it all costs. So more of what happens is something you chose.</p>
             <div class="pw">
               <div>
                 <h4>The problem</h4>
@@ -203,15 +215,42 @@
                   <li>Free and simple first; scale up only as needed</li>
                   <li>Low running costs by design</li>
                   <li>Careful handling of user data from day one</li>
-                  <li>Built in staged MVPs</li>
+                  <li>Sign in with a code from your email, no passwords</li>
+                  <li>Works offline, for places with no signal</li>
                 </ul>
               </div>
             </div>
             <div class="project-links">
               <a href="https://dwellogs.com">dwellogs.com →</a>
               <a href="https://github.com/DwelLogs">GitHub →</a>
+              <a href="https://salesforcegirl.hashnode.dev/series/building-dwellogs">The story →</a>
             </div>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WRITING ============ -->
+    <!-- Links the series and the blog, not single posts, so this does not go stale with every new post. -->
+    <section id="writing">
+      <div class="wrap">
+        <div class="eyebrow">Writing</div>
+        <h2>Notes from building</h2>
+        <p class="section-lede">I write about building my own tools, leading teams, and the work behind the work.</p>
+
+        <div class="pillars">
+          <a class="pillar pillar-link" href="https://salesforcegirl.hashnode.dev/series/building-saasy-logs">
+            <h3>Building Saasy Logs →</h3>
+            <p>Debugging the debugger, and the time a debug log never mentions.</p>
+          </a>
+          <a class="pillar pillar-link" href="https://salesforcegirl.hashnode.dev/series/building-dwellogs">
+            <h3>Building DwelLogs →</h3>
+            <p>A first house, a drawer of manuals that never say when, and building the model, the sign-in and the offline mode that came after.</p>
+          </a>
+        </div>
+
+        <div class="ctas">
+          <a class="btn" href="https://salesforcegirl.hashnode.dev/">All posts on the blog</a>
         </div>
       </div>
     </section>
