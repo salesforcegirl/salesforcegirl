@@ -105,6 +105,7 @@ h2 { font-size: 1.7rem; letter-spacing: -.02em; margin: 8px 0 12px; }
 
 /* what I do */
 .pillars { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 28px; }
+.pillars.three { grid-template-columns: repeat(3, 1fr); }
 .pillar { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px; }
 .pillar h3 { font-size: 1rem; margin-bottom: 6px; }
 .pillar p { color: var(--muted); font-size: .94rem; }
@@ -159,7 +160,7 @@ footer { border-top: 1px solid var(--border); padding: 28px 0 40px; color: var(-
   .duck-wrap { text-align: left; padding: 0; }
   .duck { width: 72px; height: 72px; }
   .duck-note { display: none; }
-  .principles, .pillars, .pw { grid-template-columns: 1fr; }
+  .principles, .pillars, .pillars.three, .pw { grid-template-columns: 1fr; }
   .job { grid-template-columns: 1fr; gap: 2px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; animation: none !important; } }
