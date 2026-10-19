@@ -1,6 +1,6 @@
 ### Hi, I'm Randi 👋
 
-Salesforce engineering leader, Agile & DevOps, building on Salesforce since 2007. I take the friction out of how teams work, and I build my own tools on the side. *See a need, fill a need.*
+Salesforce platform and GTM systems leader (SOX, CPQ, DevOps), building on Salesforce since 2007. I take the friction out of how teams work, and I build my own tools on the side. *See a need, fill a need.*
 
 **What I'm building**
 
