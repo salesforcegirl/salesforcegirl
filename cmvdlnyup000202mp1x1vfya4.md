@@ -52,7 +52,7 @@ We got phase one out, buggy but out. A deploy that only works because people sta
 
 By the time phase two came around, I could see how bad it was going to be.
 
-Estimates from one of the other teams weren’t grounded in anything tangable. Nobody had put real thought into them, and every status update said "90% done" with no progress anyone could see. Asking for demos and help with slides and content for read outs fell on deaf ears. Inside my own team, I was managing pressure that pushed the developers past their limits, and a people-pleasing habit that had them undercutting their own estimates to hit the deadline. They had taken on double their normal sprint load and were still working intake on top of it.
+Estimates from one of the other teams weren’t grounded in anything tangible. Nobody had put real thought into them, and every status update said "90% done" with no progress anyone could see. Asking for demos and help with slides and content for read outs fell on deaf ears. Inside my own team, I was managing pressure that pushed the developers past their limits, and a people-pleasing habit that had them undercutting their own estimates to hit the deadline. They had taken on double their normal sprint load and were still working intake on top of it.
 
 Undercutting an estimate doesn't make the work smaller. It just sets everyone up to fail later, with less time to recover.
 
