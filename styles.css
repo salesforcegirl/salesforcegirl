@@ -127,6 +127,7 @@ h2 { font-size: 1.7rem; letter-spacing: -.02em; margin: 8px 0 12px; }
 .project-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
 .project h3 { font-size: 1.4rem; letter-spacing: -.01em; }
 .badge { font: 500 0.6875rem "JetBrains Mono", monospace; padding: 4px 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); }
+.badge.status { display: inline-block; margin-bottom: 14px; text-decoration: none; }
 .project .pitch { font-size: 1.05rem; }
 .pw { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .pw h4 { font: 500 0.75rem "JetBrains Mono", monospace; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; }
