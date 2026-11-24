@@ -22,6 +22,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <!-- 24 Nov: canonical added with visit counting. GoatCounter's count.js uses it
+       as the counted path, so a tagged link (?utm_...) counts as "/" with its
+       campaign kept separately, not as a page of its own. -->
+  <link rel="canonical" href="https://salesforcegirl.org/">
 </head>
 <body>
 
@@ -417,8 +421,9 @@
     </section>
   </main>
 
-  <footer>© <span id="yr">2026</span> Randi Campbell · salesforcegirl.org</footer>
+  <footer>© <span id="yr">2026</span> Randi Campbell · salesforcegirl.org · Visits are counted with <a href="https://www.goatcounter.com/">GoatCounter</a>, without cookies or personal data.</footer>
 
   <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+  <script data-goatcounter="https://salesforcegirl.goatcounter.com/count" async src="count.js?v=1"></script>
 </body>
 </html>
